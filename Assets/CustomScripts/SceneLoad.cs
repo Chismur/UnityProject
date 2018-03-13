@@ -1,18 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class CylinderAhead : MonoBehaviour {
-
-	public Animator Anime;
+public class SceneLoad : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Anime = GetComponent<Animator> ();
+		SceneManager.LoadScene ("Intro");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Anime.Play ("CylinderGo");
+		
 	}
 }
