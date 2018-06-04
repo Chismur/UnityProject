@@ -9,6 +9,7 @@ public class RadialGazeTimer : MonoBehaviour {
 	public Transform RadialProgress;
 	public string MagicWord;
 	public GameObject StuffToDo;
+	public GameObject Capsules;
 
 
 
@@ -24,7 +25,7 @@ public class RadialGazeTimer : MonoBehaviour {
 		RadialProgress.GetComponent<Image> ().fillAmount = MyTime/2;
 
 		if (MyTime >= 2f) {
-			DoStuff ();
+			DoStuff (SelectCapsule ());
 		}
 	}
 
@@ -33,13 +34,19 @@ public class RadialGazeTimer : MonoBehaviour {
 		RadialProgress.GetComponent<Image> ().fillAmount = MyTime;
 	}
 		
-	public void DoStuff(){
+	public void DoStuff(Rigidbody o){
 		if (MagicWord == ("HAND")){
-		StuffToDo.GetComponent<GrabAndDrop>().InMyHands();
+		StuffToDo.GetComponent<GrabAndDrop>().InMyHands(o);
 		}
 		else if (MagicWord == ("NODE")){
 			Resetinator ();
-		StuffToDo.GetComponent<GrabAndDrop> ().OnTheNodes ();
+		StuffToDo.GetComponent<GrabAndDrop> ().OnTheNodes (o);
 		}
+	}
+
+	public Rigidbody SelectCapsule(){
+		//if(Capsules.transform.Find ("CapsuleOne").name == 
+			//Rigidbody r; //. =  StuffToDo.GetComponent<CapsuleSelector>().getCapsule ();
+		return null;
 	}
 }

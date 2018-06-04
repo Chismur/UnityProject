@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CustomScripts\CapsuleSelector.cs" />
      <Compile Include="Assets\CustomScripts\ChangedColor.cs" />
      <Compile Include="Assets\CustomScripts\Drop.cs" />
      <Compile Include="Assets\CustomScripts\From2DtoVr.cs" />
@@ -59,6 +60,7 @@
      <Compile Include="Assets\CustomScripts\GrabAndDrop.cs" />
      <Compile Include="Assets\CustomScripts\RadialGazeTimer.cs" />
      <Compile Include="Assets\CustomScripts\SceneLoad.cs" />
+     <Compile Include="Assets\CustomScripts\SetCapsulesName.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />

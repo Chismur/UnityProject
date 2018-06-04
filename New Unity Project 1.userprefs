@@ -1,11 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\GrabAndDrop.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\RadialGazeTimer.cs">
     <Files>
-      <File FileName="Assets\CustomScripts\RadialGazeTimer.cs" Line="41" Column="19" />
-      <File FileName="Assets\CustomScripts\Drop.cs" Line="13" Column="72" />
-      <File FileName="Assets\CustomScripts\Grab.cs" Line="15" Column="2" />
-      <File FileName="Assets\CustomScripts\GrabAndDrop.cs" Line="19" Column="26" />
+      <File FileName="Assets\CustomScripts\GrabAndDrop.cs" Line="11" Column="29" />
+      <File FileName="Assets\CustomScripts\CapsuleSelector.cs" Line="20" Column="44" />
+      <File FileName="Assets\CustomScripts\RadialGazeTimer.cs" Line="50" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
